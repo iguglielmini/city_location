@@ -1,0 +1,60 @@
+.content-search {
+    text-align: center;
+    margin-top: 25px;
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        > div {
+            width: 100%;
+            max-width: 500px;
+            min-width: 310px;
+        }
+        button {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            margin-left: 10px;
+            background-color: #4952b6;
+            color: white;
+            border: 1px solid #4952b6;
+            border-radius: 10px;
+            box-shadow: 0 0 0 -100px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            transition: 0.4s all ease-out;
+
+            svg {
+                width: 30px;
+                height: 30px;
+            }
+
+            &:hover {
+                border: 1px solid #4952b6;
+                color: #4952b6;
+                background-color: transparent;
+            }
+        }
+        .clear-btn {
+            padding: 10px;
+            margin-left: 10px;
+            background-color: transparent;
+            color: #4952b6;
+            border: 1px solid #4952b6;
+            border-radius: 10px;
+            box-shadow: 0 0 0 -100px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            transition: 0.4s all ease-out;
+
+            svg {
+                width: 30px;
+                height: 30px;
+            }
+
+            &:hover {
+                border: 1px solid #4952b6;
+                color: #fff;
+                background-color: #4952b6;
+            }
+        }
+    }
+}

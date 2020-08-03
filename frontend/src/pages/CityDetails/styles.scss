@@ -1,0 +1,29 @@
+.container-city {
+    width: 100vw;
+    .header-city {
+        width: 100%;
+        padding: 30px 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #4952b6;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+        color: white;
+        > div {
+            display: flex;
+            align-items: center;
+            color: white;
+            a {
+                display: flex;
+                align-items: center;
+                font-size: 24px;
+                text-decoration: none;
+                color: white;
+                svg {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,55 @@
+.container-card{
+    width: 100vw;
+    margin-top: 30px;
+    padding: 10px 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .card-city{
+        width: 315px;
+        height: 150px;
+        padding: 15px 30px;
+        margin: 10px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0 0 0 -100px rgba(0,0,0,0.5);
+
+        svg{
+            width: 45px;
+            height: 45px;
+            background: #4952B6;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+        }
+
+        > div{
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+            flex-direction: column;
+            h3{
+                font-size: 21px;
+                line-height: 26px;
+            }
+            span{
+                font-size: 14px;
+            }
+        }
+        h3{
+            font-size: 42px;
+            line-height: 26px;
+        }
+    }
+}
