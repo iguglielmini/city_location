@@ -3,16 +3,14 @@
 module.exports = {
 
   development: {
-    client: 'pg',
+    client: 'sqlite3',
     connection: {
-      database: 'customers',
-      user:     'postgres',
-      password: '17a105314a'
+      filename: './src/database/db.sqlite'
     },
     migrations: {
-      tableName: 'knex_migrations',
-      directory: `${__dirname}/src/database/migrations`
-    }
+      directory:'./src/database/migrations'
+    },
+    useNullAsDefault: true,
   },
 
   staging: {
